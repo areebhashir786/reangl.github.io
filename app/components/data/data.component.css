@@ -1,0 +1,43 @@
+.jds {
+  background-color: #bdb9b9;
+}
+
+.para {
+  text-align: center;
+  font-weight: bold;
+  height: 100%;
+  font-size: 30px;
+  margin-bottom: 30px;
+}
+.para2 {
+  padding-left: 5px;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+.para3 {
+  padding-left: 5px;
+  font-size: 25px;
+  margin-bottom: 20px;
+}
+
+.pad1 {
+  padding-top: 30px;
+}
+.margin {
+  margin-left: 20px;
+}
+a:link,
+a:visited {
+  background-color: #bdb9b9;
+  color: rgb(7, 7, 7);
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+
+  border-radius: 5px;
+}
+
+a:hover,
+a:active {
+  background-color: rgb(255, 55, 55);
+}

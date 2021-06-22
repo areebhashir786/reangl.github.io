@@ -1,0 +1,37 @@
+<div>
+  <div>
+    <p class="incFont">FORM SUBMISSION IN ANGULAR</p>
+  </div>
+  <div>
+    <p class="signup">Sign up</p>
+    <form (ngSubmit)="onSubmit()">
+      <div class="form-control">
+        <label for="email">Email</label>
+        <input
+          type="text"
+          name="email"
+          [(ngModel)]="email"
+          id="email"
+          placeholder="Email Address"
+        />
+      </div>
+
+      <div class="form-control">
+        <label for="password">Password</label>
+        <input
+          type="text"
+          name="password"
+          [(ngModel)]="password"
+          id="password"
+          placeholder="Password"
+        />
+      </div>
+
+      <div class="padding"></div>
+
+      <input class="btn btn-block" type="submit" value="Submit" />
+    </form>
+  </div>
+  <div class="pad2"></div>
+  <a routerLink="/data">Home</a>
+</div>

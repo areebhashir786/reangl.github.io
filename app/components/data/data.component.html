@@ -1,0 +1,28 @@
+<div>
+  <p class="para">HOME PAGE</p>
+  <p class="para2">Jobs List</p>
+  <app-data-items *ngFor="let item of data" [item]="item"></app-data-items>
+  <div class="pad1"></div>
+  <a routerLink="/forms">Form Submission</a>
+  <a class="margin" routerLink="/data/map">My Location</a>
+  <div class="pad1"></div>
+  <p class="para3">Share A post</p>
+  <!-- <div class="pad1"></div> -->
+  <share-buttons
+    theme="moon"
+    [include]="['facebook', 'linkedin']"
+    [size]="5"
+    [url]="'https://youtu.be/pCewaWYNnu4'"
+  ></share-buttons>
+</div>
+<!-- <app-pages></app-pages> -->
+<!-- <div>
+  <ul *ngFor="let each of data">
+    {{
+      each.name
+    }}<span>{{ each.days }}</span>
+  </ul>
+</div> -->
+<!-- //each has the task and it is being used as a prop or input
+The input will be given to data-item component and data-item will have complete access to our data
+In the data-item.html we can  -->

@@ -1,0 +1,78 @@
+.container1 {
+  max-width: 50%;
+  margin: auto;
+}
+.imagecontainer {
+  padding-top: 30px;
+  text-align: center;
+}
+.image {
+  max-width: 50%;
+  max-height: 50%;
+}
+
+.signup {
+  font-size: 22px;
+  font-weight: bold;
+  margin-top: 20px;
+  text-align: center;
+}
+
+.formcontainer {
+  margin: 20px 0px;
+  text-align: center;
+  height: 30px;
+}
+.email {
+  padding: 20px 0px;
+}
+.padding {
+  padding: 10px 0px;
+}
+.abd {
+  padding: 30px 0px;
+
+  padding-left: 10px;
+  font-size: 18px;
+  height: 35px;
+  width: 70%;
+}
+/* .btn {
+  background: #007fed;
+  border: 1px solid #007fed;
+  color: #f7f7f7;
+  font-weight: 700;
+}
+.btn {
+  font-size: 18px;
+  height: 35px;
+  width: 100%;
+} */
+.btn:hover {
+  background: #139ff0;
+  border-color: #139ff0;
+  color: #f7f7f7;
+}
+.incFont {
+  font-size: 24px;
+  text-align: center;
+}
+
+.pad2 {
+  padding-top: 50px;
+}
+a:link,
+a:visited {
+  background-color: #bdb9b9;
+  color: rgb(7, 7, 7);
+  padding: 14px 25px;
+  text-align: center;
+  text-decoration: none;
+
+  border-radius: 5px;
+}
+
+a:hover,
+a:active {
+  background-color: rgb(255, 55, 55);
+}
